@@ -11,6 +11,11 @@ To do:
 - maybe remake the whole backend in vlc to improve support for windows
 
 
+## How to run:
+python3 run.py
+Optionally, but heavily recommended, add run.py to your PATH
+
+
 ### Prerequisites
 
 Mercury uses Gstreamer via PyGObject (gi) for audio playback.
