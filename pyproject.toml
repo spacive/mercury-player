@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mercury-player"
+version = "1.0.0"
+description = "A simple yet functional terminal-based music player"
+authors = [{ name = "spaciv" }]
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+dependencies = [
+    
+]
+
+[project.scripts]
+mercury = "mercury.run:main"
+
