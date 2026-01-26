@@ -17,7 +17,7 @@ To do:
 ## How to run:
 
 python3 run.py
-Optionally, add run.py to your PATH (maybe not
+Optionally, add run.py to your PATH (You're on your own for that one)
 
 
 ### Prerequisites
