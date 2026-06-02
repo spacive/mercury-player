@@ -15,7 +15,7 @@ To do:
 
 ## How to run:
 
-python3 run.py
+simply run run.py
 
 
 ### Prerequisites
