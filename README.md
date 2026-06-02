@@ -6,18 +6,16 @@ This is a personal project, so don't expect everything to run perfectly.
 Built entirely in python, it is made to be light on both CPU and memory usage.
 
 To do:
-- improve support for extra large folders of music (>~500)
+- add support for .opus files
 - replace curses UI with Textual
 - Windows support
 - maybe remake the whole backend in vlc to improve support for windows
 - AppImage file
-- Make the actual file run properly when installed with pipx
 
 
 ## How to run:
 
 python3 run.py
-Optionally, add run.py to your PATH (You're on your own for that one)
 
 
 ### Prerequisites
@@ -48,8 +46,9 @@ sudo pacman -S python-gobject gstreamer gst-plugins-base gst-plugins-good
 
 ### MacOS (Homebrew) (Untested)
 
-**MacOS is not officially supported, and most likely never will be. This is because I don't own an iMac or Macbook.**
+**MacOS is not officially supported, and most likely never will be. This is because I don't own a Mac.**
 **However, the packages are available on Homebrew, so if you have an Apple device, try seeing if it works, because I have no idea.**
+
 brew install pygobject3 gstreamer gst-plugins-base gst-plugins-good
 
 **Make sure you are using Python on Homebrew**
